@@ -1,0 +1,28 @@
+
+.carousel-container{
+    height: 100%;
+    width: 100%;
+  span{
+      display: block;
+      position: absolute;
+      padding: 10px 14px;
+      border: 2px solid #ababab;
+      cursor: pointer;
+      user-select: none;
+      border-radius: 50%;
+      background-color: #fff;
+      top: 50%;
+      &.prev{
+          left: 20px; 
+      }
+      &.next{
+          right: 20px;
+      }
+  }  
+ .image-container{
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+}

@@ -1,0 +1,5 @@
+<div class="carousel-container">
+    <span  (click)="changeImage$.next(-1)" class="prev">&#60;</span>
+    <div class="image-container" [ngStyle]="{ 'background-image': 'url(' + images[currentIndex$ | async] + ')'}"></div> 
+    <span (click)="changeImage$.next(1)" class="next">&#62;</span>
+</div>
