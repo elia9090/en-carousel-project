@@ -9,7 +9,7 @@ import { scan } from 'rxjs/operators';
 })
 export class NgCarouselComponent implements OnInit {
 
-  @Input('images') images: string[];
+  @Input('images') images: string[]=[];
   
   imagesLength:number;
   currentIndex$ = new BehaviorSubject(0);
